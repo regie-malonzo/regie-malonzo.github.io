@@ -6,7 +6,8 @@
         font-family:Arial, Helvetica, sans-serif
 }
 
-ul {
+#nav-bar {
+  ul {
         list-style-type: none;
         margin: 0;
         padding: 0;
@@ -42,7 +43,7 @@ ul {
       li:last-child {
         border-right: none;
       }
-
+}
 
 img {
         width: 20rem;
@@ -56,10 +57,11 @@ img {
         padding: 6px;
         width: 70%;
         border-radius: 1rem;
-        border: 8px solid #333;
-        
-
+        border: 8px solid #333;       
 }
+
+
+
 
 #header {
         text-align:center;
