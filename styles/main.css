@@ -110,3 +110,7 @@
    overflow: clip;
   }
 
+footer {
+  font-size: .8rem;
+  color: red;
+}
