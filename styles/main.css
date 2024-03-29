@@ -7,7 +7,7 @@
 }
 
 #nav-bar {
-  ul {
+   ul {
         list-style-type: none;
         margin: 0;
         padding: 0;
@@ -42,16 +42,16 @@
 
       li:last-child {
         border-right: none;
-      }
+      } 
 }
 
-img {
-        width: 20rem;
-        height: 30rem;
+#cover-photo {
+     img { 
+      width: 20rem;
+        height: 20rem;
         object-fit: cover;
-        border-radius: 10px;
+        border-radius: 10px;} 
 }
-
 .text {
         float: left;
         padding: 6px;
@@ -60,6 +60,22 @@ img {
         border: 8px solid #333;
         margin: 2%;       
 }
+
+.example-container {
+  align-items: center;
+  display: flex;
+}
+
+
+ ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    display: inline;
+    margin-right: 10px;
+  }
 
 
 
@@ -87,3 +103,10 @@ img {
     justify-content: center;
     align-items: stretch;
   }
+
+
+  img {
+   overflow-clip-margin: content-box;
+   overflow: clip;
+  }
+
