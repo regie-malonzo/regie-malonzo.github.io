@@ -9,18 +9,31 @@
 
     <body class="container">
         <div id="flex-container">
-            <nav id="nav-bar">
-                <ul>
-                    <li style="float: right;"><a href="../index.html">Home</a></li>
-                    <li><a href="te-houtaewa-template.html">template</a></li>
-                    <li><a href="html-css.html">CSS Blog</a></li>
-                    <li><a href="javascript-dom.html">JS Blog</a></li>
-                    <li><a href="identity-value.html">Core1</a></li>
-                    <li><a href="learning-plan.html">Core2</a></li>
-                    <li><a href="emotional-intelligence.html">Core3</a></li>
-                  </ul>
-
-            </nav>
+            <nav>
+                <div class="home" style="float: right;">
+                   <a href="../index.html">
+                    <button class="homebtn" >Home</button>
+                   </a>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">Tech</button>
+                    <div class="dropdown-content">
+                    <a href="html-css.html">ID vs Class</a>
+                    <a href="javascript-dom.html">JavaScript and DOM</a>
+                      <a href="#">Link 3</a>
+                    </div>
+                    
+                  </div>
+            
+                  <div class="dropdown">
+                    <button class="dropbtn">Core</button>
+                    <div class="dropdown-content">
+                        <a href="identity-value.html">Identity and Value</a>
+                        <a href="learning-plan.html">Learning Plan</a>
+                        <a href="emotional-intelligence.html">Emotional Intelligence</a>
+                    </div>
+                  </div>
+                 </nav>
 
             <div class="text">
                 <div id="header">
