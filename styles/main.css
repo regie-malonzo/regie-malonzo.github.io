@@ -83,6 +83,7 @@ footer {
   font-size: 16px;
   border: none;
   cursor: pointer;
+  margin: 5px;
 }
 
 
@@ -124,6 +125,7 @@ footer {
 .home {
   position: relative;
   display: inline-block;
+  margin: 5px;
 }  
 
 .homebtn {
