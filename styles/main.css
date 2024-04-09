@@ -17,11 +17,11 @@
 }
 .text {
         float: left;
-        padding: 6px;
+        padding: 20px;
         width: 90%;
         border-radius: 1rem;
         border: 8px solid #333;
-        margin: 2%;       
+        margin: 2%;
 }
 
 .example-container {
@@ -145,6 +145,8 @@ footer {
 table, th, td {
   border: 1px solid black;
   border-collapse: collapse;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 #table-center{
